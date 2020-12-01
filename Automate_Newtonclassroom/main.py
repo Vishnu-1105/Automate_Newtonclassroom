@@ -161,8 +161,8 @@ driver.maximize_window()
 signin = driver.find_element_by_xpath('//*[@id="Button_button__3GgJ3"]/a/div/div/span')
 signin.click()
 
-username = 'Your college e-mail'
-password = 'Your e-mail password'
+username = 'YOUR COLLEGE E-MAIL'
+password = 'YOUR E-MAIL PASSWORD'
 
 driver.find_element_by_xpath('//*[@id="identifierId"]').send_keys(username, Keys.ENTER)
 time.sleep(4)
